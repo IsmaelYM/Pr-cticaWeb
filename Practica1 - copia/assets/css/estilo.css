@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#inicio {
+    background-image: url('../images/fondoInicio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar-brand img {
+    width: 80px;
+    max-height: 100%;
+    display: inline-block;
+}
+
+h4 {
+    padding-top: 380px;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.separador {
+    position: relative;
+    height: 2px;
+    background-color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0);
+    margin: 0;
+}
+
+.separador-grueso {
+    border: none;
+    height: 3px;
+    width: 80%;
+    background-color: #000;
+    margin: 20px auto;
+}
+
+.logo {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
